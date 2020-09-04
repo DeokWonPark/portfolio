@@ -3725,7 +3725,7 @@
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			margin: 1.0em 0 0 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -3827,4 +3827,28 @@
 	}
 	.paper_p p{
 		margin: 0px 0px 0px 0px !important;
+	}
+	.project_div{
+		border-style: ridge;
+		border-width: 3px;
+		border-color: #d1a9cf;
+	}
+
+	.project_div video{
+		width: calc(40% - 1.5em);
+		height: 300px;
+		display: inline-block;
+	}
+	.project_text{
+		top: -5px;
+		width: calc(60% - 1.5em);
+		display: inline-block;
+	}
+	.project_text p{
+		margin: 0px 0px 0px 0px;
+	}
+	.project_text h1{
+		font-size:28px;
+		color: #000;
+		font-weight: 500;
 	}
