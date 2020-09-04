@@ -33,7 +33,7 @@
             //다음문장 타이핑전 1초 쉰다
                 clearInterval(tyInt);
                 setTimeout(function(){
-                    $(".typing").html('');
+                    $(".typing").html('#');
                 tyInt = setInterval(typing,100);
                 },1000);
             } 
